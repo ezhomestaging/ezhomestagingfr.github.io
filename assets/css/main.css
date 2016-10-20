@@ -1133,6 +1133,8 @@ textarea {
     text-align: center; }
     .contact-cta .headline p {
       padding-top: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
       margin: 0;
       font-family: "Raleway", sans-serif;
       font-size: 22pt;
