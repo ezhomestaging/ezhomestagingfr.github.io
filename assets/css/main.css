@@ -390,7 +390,7 @@ textarea {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  background: #6B4086;
+  background: #ABA633;
   width: 100vw;
   height: auto; }
 
@@ -425,7 +425,7 @@ textarea {
       height: 100px;
       width: 400px;
       margin-left: 15px;
-      background-image: url(../images/ezhs_logo.svg);
+      background-image: url(/assets/images/ezhs_logo_outlines.svg);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
@@ -551,7 +551,7 @@ textarea {
       flex-direction: column;
   height: 400px;
   width: 100%;
-  background-image: url(../images/hero_1.jpg);
+  background-image: url(/assets/images/hero_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 20% 40%; }
@@ -747,15 +747,15 @@ textarea {
       .panels .panel-container .panel-1 .icon-1-container, .panels .panel-container .panel-2 .icon-1-container, .panels .panel-container .panel-3 .icon-1-container {
         border: 1px solid #C57246; }
         .panels .panel-container .panel-1 .icon-1-container .icon-1, .panels .panel-container .panel-2 .icon-1-container .icon-1, .panels .panel-container .panel-3 .icon-1-container .icon-1 {
-          background-image: url(../images/brush_icon.svg); }
+          background-image: url(/assets/images/brush_icon.svg); }
       .panels .panel-container .panel-1 .icon-2-container, .panels .panel-container .panel-2 .icon-2-container, .panels .panel-container .panel-3 .icon-2-container {
-        border: 1px solid #ABA633; }
+        border: 1px solid #6B4086; }
         .panels .panel-container .panel-1 .icon-2-container .icon-2, .panels .panel-container .panel-2 .icon-2-container .icon-2, .panels .panel-container .panel-3 .icon-2-container .icon-2 {
-          background-image: url(../images/cash_icon.svg); }
+          background-image: url(/assets/images/cash_icon.svg); }
       .panels .panel-container .panel-1 .icon-3-container, .panels .panel-container .panel-2 .icon-3-container, .panels .panel-container .panel-3 .icon-3-container {
         border: 1px solid #A2AEC0; }
         .panels .panel-container .panel-1 .icon-3-container .icon-3, .panels .panel-container .panel-2 .icon-3-container .icon-3, .panels .panel-container .panel-3 .icon-3-container .icon-3 {
-          background-image: url(../images/timer_icon.svg); }
+          background-image: url(/assets/images/timer_icon.svg); }
       .panels .panel-container .panel-1 .title-1, .panels .panel-container .panel-1 .title-2, .panels .panel-container .panel-1 .title-3, .panels .panel-container .panel-2 .title-1, .panels .panel-container .panel-2 .title-2, .panels .panel-container .panel-2 .title-3, .panels .panel-container .panel-3 .title-1, .panels .panel-container .panel-3 .title-2, .panels .panel-container .panel-3 .title-3 {
         display: -ms-flexbox;
         display: flex;
@@ -776,7 +776,7 @@ textarea {
       .panels .panel-container .panel-1 .title-1, .panels .panel-container .panel-2 .title-1, .panels .panel-container .panel-3 .title-1 {
         background: #C57246; }
       .panels .panel-container .panel-1 .title-2, .panels .panel-container .panel-2 .title-2, .panels .panel-container .panel-3 .title-2 {
-        background: #ABA633; }
+        background: #6B4086; }
       .panels .panel-container .panel-1 .title-3, .panels .panel-container .panel-2 .title-3, .panels .panel-container .panel-3 .title-3 {
         background: #A2AEC0; }
       .panels .panel-container .panel-1 .desc-1, .panels .panel-container .panel-1 .desc-2, .panels .panel-container .panel-1 .desc-3, .panels .panel-container .panel-2 .desc-1, .panels .panel-container .panel-2 .desc-2, .panels .panel-container .panel-2 .desc-3, .panels .panel-container .panel-3 .desc-1, .panels .panel-container .panel-3 .desc-2, .panels .panel-container .panel-3 .desc-3 {
@@ -904,7 +904,7 @@ textarea {
       display: flex;
       height: 100px;
       width: 100px;
-      background-image: url(../images/house_icon_2.svg);
+      background-image: url(/assets/images/house_icon_2.svg);
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat; }
@@ -1022,7 +1022,7 @@ textarea {
           height: 40px;
           width: 40px;
           margin-right: 5px;
-          background-image: url(../images/thumbdown_icon.svg);
+          background-image: url(/assets/images/thumbdown_icon.svg);
           background-position: center;
           background-repeat: no-repeat;
           background-size: contain; }
@@ -1035,7 +1035,7 @@ textarea {
           height: 40px;
           width: 40px;
           margin-right: 5px;
-          background-image: url(../images/thumbup_icon.svg);
+          background-image: url(/assets/images/thumbup_icon.svg);
           background-position: center;
           background-repeat: no-repeat;
           background-size: contain; }
@@ -1050,7 +1050,7 @@ textarea {
     width: 80%;
     height: auto;
     height: 300px;
-    background-image: url(../images/before_after_1.png);
+    background-image: url(/assets/images/before_after_1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
@@ -1301,7 +1301,7 @@ textarea {
       display: flex;
       height: 70px;
       width: 350px;
-      background-image: url(../images/ezhs_logo.svg);
+      background-image: url(/assets/images/ezhs_logo_outlines.svg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain; }
@@ -1321,7 +1321,7 @@ textarea {
         display: flex;
         height: 30px;
         width: 30px;
-        background-image: url(../images/facebook_icon.svg);
+        background-image: url(/assets/images/facebook_icon.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
@@ -1337,7 +1337,7 @@ textarea {
       display: flex;
       height: 70px;
       width: 150px;
-      background-image: url(../images/sfd_logo.jpg);
+      background-image: url(/assets/images/sfd_logo.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain; }
@@ -1357,10 +1357,21 @@ textarea {
         display: flex;
         height: 30px;
         width: 30px;
-        background-image: url(../images/facebook_icon.svg);
+        background-image: url(/assets/images/facebook_icon.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
+
+.copyright {
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-bottom: 30px; }
 
 @media (max-width: 980px) {
   .footer {
@@ -1392,7 +1403,7 @@ textarea {
       .footer .sfd-footer .sfd-facebook .icon {
         height: 20px;
         width: 20px;
-        background-image: url(../images/facebook_icon.svg);
+        background-image: url(/assets/images/facebook_icon.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; } }
@@ -1402,4 +1413,6 @@ textarea {
     -ms-flex-direction: column !important;
         flex-direction: column !important; }
     .footer .ezhs-footer {
-      margin-bottom: 10px !important; } }
+      margin-bottom: 10px !important; }
+  .copyright {
+    font-size: 8pt !important; } }
