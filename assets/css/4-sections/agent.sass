@@ -1,0 +1,104 @@
+.agent
+  display: flex
+  flex-direction: column
+  align-self: center
+  justify-content: center
+  align-items: center
+  margin-top: 25px
+  height: auto
+  .agent-company
+    display: flex
+    flex-direction: column
+    align-items: center
+    .agent-company-logo
+      display: flex
+      height: 140px
+      width: 700px
+      background:
+        image: url(http://deborahrose.mysmartblog.com/files/2016/01/logojpg.jpg)
+        position: center
+        repeat: no-repeat
+        size: contain
+    .agent-picture-info
+      display: flex
+      flex-direction: row
+      justify-content: center
+      height: auto
+      width: 800px
+      .agent-picture
+        display: flex
+        height: 150px
+        width: 150px
+        background:
+          image: url(http://www.sudfrancedesign.com/doukhan.frederique.png)
+          position: center
+          repeat: no-repeat
+          size: contain
+      .agent-info
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin-left: 25px
+        height: auto
+        max-width: 300px
+        .regular-text
+          p
+            margin: 0
+            font-family: $mainfont
+            color: $gunmetal
+            font-size: 16px
+            font-weight: lighter
+        .bold-text
+          p
+            margin: 0
+            font-family: $mainfont
+            color: $gunmetal
+            font-size: 16px
+            font-weight: bold
+  .staging-pitures
+    display: flex
+    flex-direction: row
+    align-items: center
+    margin-top: 25px
+    height: 300px
+    width: auto
+    .staging-before
+      display: flex
+      height: 300px
+      width: 450px
+      background:
+        image: url(http://graphics8.nytimes.com/packages/pdf/realestate/20120729-slider-cover/29SLIDERCOVER_FLEX-custom4-Aliv-before2.jpg)
+        position: center
+        repeat: no-repeat
+        size: contain
+    .staging-after
+      display: flex
+      height: 300px
+      width: 450px
+      background:
+        image: url(http://graphics8.nytimes.com/packages/pdf/realestate/20120729-slider-cover/29SLIDERCOVER_FLEX-custom4-Aliv-before2.jpg)
+        position: center
+        repeat: no-repeat
+        size: contain
+
+@media (max-width: 980px)
+  .agent
+    width: 100vw !important
+
+@media (max-width: 640px)
+  .agent
+    margin-bottom: 25px
+    .agent-company
+      justify-content: center !important
+      .agent-company-logo
+        height: 50px
+        width: 200px
+      .agent-picture
+        height: 70px
+        width: 70px
+
+@media (max-width: 380px)
+  .agent
+    flex-direction: column !important
+    .agent-company
+      margin-bottom: 10px !important
