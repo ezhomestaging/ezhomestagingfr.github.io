@@ -4,7 +4,6 @@
   align-self: center
   justify-content: center
   align-items: center
-  margin-top: 25px
   height: auto
   .agent-company
     display: flex
@@ -13,9 +12,8 @@
     .agent-company-logo
       display: flex
       height: 140px
-      width: 700px
+      width: auto
       background:
-        image: url(http://deborahrose.mysmartblog.com/files/2016/01/logojpg.jpg)
         position: center
         repeat: no-repeat
         size: contain
@@ -30,7 +28,6 @@
         height: 150px
         width: 150px
         background:
-          image: url(http://www.sudfrancedesign.com/doukhan.frederique.png)
           position: center
           repeat: no-repeat
           size: contain
@@ -48,6 +45,13 @@
             color: $gunmetal
             font-size: 16px
             font-weight: lighter
+        .mailto-text
+          a
+            margin: 0
+            font-family: $mainfont
+            color: $gunmetal
+            font-size: 16px
+            font-weight: lighter
         .bold-text
           p
             margin: 0
@@ -60,14 +64,15 @@
     flex-direction: row
     align-items: center
     margin-top: 25px
-    height: 300px
+    height: auto
     width: auto
     .staging-before
       display: flex
-      height: 300px
+      height: 297px
       width: 450px
+      margin-right: 5px
       background:
-        image: url(http://graphics8.nytimes.com/packages/pdf/realestate/20120729-slider-cover/29SLIDERCOVER_FLEX-custom4-Aliv-before2.jpg)
+        image: url(http://www.sudfrancedesign.com/before.jpg)
         position: center
         repeat: no-repeat
         size: contain
@@ -76,7 +81,7 @@
       height: 300px
       width: 450px
       background:
-        image: url(http://graphics8.nytimes.com/packages/pdf/realestate/20120729-slider-cover/29SLIDERCOVER_FLEX-custom4-Aliv-before2.jpg)
+        image: url(http://www.sudfrancedesign.com/after.jpg)
         position: center
         repeat: no-repeat
         size: contain
@@ -91,14 +96,26 @@
     .agent-company
       justify-content: center !important
       .agent-company-logo
-        height: 50px
-        width: 200px
-      .agent-picture
-        height: 70px
-        width: 70px
+        height: 100px
+        width: 600px
+      .agent-picture-info
+        .agent-picture
+          margin-top: 5px
+          height: 100px
+          width: 100px
+    .staging-pitures
+      flex-direction: column !important
 
 @media (max-width: 380px)
   .agent
     flex-direction: column !important
     .agent-company
       margin-bottom: 10px !important
+    .staging-pitures
+      flex-direction: column !important
+      .staging-before
+        height: 200px
+        width: 325px
+      .staging-after
+        height: 200px
+        width: 325px

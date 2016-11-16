@@ -1470,8 +1470,7 @@ textarea {
       display: -ms-flexbox;
       display: flex;
       height: 140px;
-      width: 700px;
-      background-image: url(http://deborahrose.mysmartblog.com/files/2016/01/logojpg.jpg);
+      width: auto;
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain; }
@@ -1489,7 +1488,6 @@ textarea {
         display: flex;
         height: 150px;
         width: 150px;
-        background-image: url(http://www.sudfrancedesign.com/doukhan.frederique.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain; }
@@ -1504,6 +1502,12 @@ textarea {
         height: auto;
         max-width: 300px; }
         .agent .agent-company .agent-picture-info .agent-info .regular-text p {
+          margin: 0;
+          font-family: "Raleway", sans-serif;
+          color: #292F36;
+          font-size: 16px;
+          font-weight: lighter; }
+        .agent .agent-company .agent-picture-info .agent-info .mailto-text a {
           margin: 0;
           font-family: "Raleway", sans-serif;
           color: #292F36;
