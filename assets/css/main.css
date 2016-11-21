@@ -1482,7 +1482,7 @@ textarea {
       -ms-flex-pack: center;
           justify-content: center;
       height: auto;
-      width: 800px; }
+      width: auto; }
       .agent .agent-company .agent-picture-info .agent-picture {
         display: -ms-flexbox;
         display: flex;
@@ -1532,26 +1532,44 @@ textarea {
     .agent .staging-pitures .staging-before {
       display: -ms-flexbox;
       display: flex;
-      height: 297px;
+      height: auto;
       width: 450px;
       margin-right: 5px;
-      background-image: url(http://www.sudfrancedesign.com/before.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain; }
     .agent .staging-pitures .staging-after {
       display: -ms-flexbox;
       display: flex;
-      height: 300px;
+      height: auto;
       width: 450px;
-      background-image: url(http://www.sudfrancedesign.com/after.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain; }
 
 @media (max-width: 980px) {
   .agent {
-    width: 100vw !important; } }
+    width: 100vw !important; }
+    .agent .agent-company {
+      -ms-flex-pack: center !important;
+          justify-content: center !important; }
+      .agent .agent-company .agent-company-logo {
+        height: 100px;
+        width: auto; }
+      .agent .agent-company .agent-picture-info .agent-picture {
+        margin-top: 5px;
+        height: 100px;
+        width: 100px; }
+    .agent .staging-pitures {
+      -ms-flex-direction: row !important;
+          flex-direction: row !important; }
+      .agent .staging-pitures .staging-before {
+        height: auto;
+        width: 300px;
+        margin-bottom: 5px !important; }
+      .agent .staging-pitures .staging-after {
+        height: auto;
+        width: 300px; } }
 
 @media (max-width: 640px) {
   .agent {
@@ -1561,16 +1579,23 @@ textarea {
           justify-content: center !important; }
       .agent .agent-company .agent-company-logo {
         height: 100px;
-        width: 600px; }
+        width: auto; }
       .agent .agent-company .agent-picture-info .agent-picture {
         margin-top: 5px;
         height: 100px;
         width: 100px; }
     .agent .staging-pitures {
       -ms-flex-direction: column !important;
-          flex-direction: column !important; } }
+          flex-direction: column !important; }
+      .agent .staging-pitures .staging-before {
+        height: auto;
+        width: 380px;
+        margin-bottom: 5px !important; }
+      .agent .staging-pitures .staging-after {
+        height: auto;
+        width: 380px; } }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
   .agent {
     -ms-flex-direction: column !important;
         flex-direction: column !important; }
@@ -1581,7 +1606,7 @@ textarea {
           flex-direction: column !important; }
       .agent .staging-pitures .staging-before {
         height: 200px;
-        width: 325px; }
+        width: auto; }
       .agent .staging-pitures .staging-after {
         height: 200px;
-        width: 325px; } }
+        width: auto; } }
