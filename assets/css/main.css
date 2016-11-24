@@ -413,7 +413,7 @@ textarea {
   height: auto; }
 
 @media (max-width: 960px) {
-  .content-sections-1, .content-sections-2, .content-sections-3 {
+  .content-sections-1, .content-sections-2, .content-sections-3, .gallery-section {
     width: 100vw !important; } }
 
 .header, .header-promotion {
@@ -1609,4 +1609,50 @@ textarea {
         width: auto; }
       .agent .staging-pitures .staging-after {
         height: 200px;
+        width: auto; } }
+
+.gallery {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-top: 30px;
+  height: auto; }
+  .gallery .thumbnails {
+    display: inline-grid;
+    text-align: center;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    height: auto;
+    max-width: 800px;
+    padding-left: 25px; }
+    .gallery .thumbnails .thumbnail {
+      display: inline-grid;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      margin-right: 25px;
+      margin-bottom: 20px;
+      border-radius: 4px;
+      -ms-flex-align: center;
+          align-items: center;
+      height: 140px;
+      width: auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+
+@media (max-width: 980px) {
+  .gallery {
+    width: 100vw !important; }
+    .gallery .thumbnails {
+      -ms-flex-pack: center !important;
+          justify-content: center !important; }
+      .gallery .thumbnails .thumbnail {
+        height: 100px;
         width: auto; } }
