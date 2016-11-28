@@ -413,7 +413,7 @@ textarea {
   height: auto; }
 
 @media (max-width: 960px) {
-  .content-sections-1, .content-sections-2, .content-sections-3, .gallery-section {
+  .content-sections-1, .content-sections-2, .content-sections-3 {
     width: 100vw !important; } }
 
 .header, .header-promotion {
