@@ -994,7 +994,7 @@ textarea {
         text-align: center;
         border-bottom: 3px solid #6B4086; }
         .comparison .comparison-container .standard-company .title p, .comparison .comparison-container .ezhs .title p {
-          margin: 0; }
+          margin: 0px; }
       .comparison .comparison-container .standard-company .total-container-1, .comparison .comparison-container .ezhs .total-container-1 {
         border: 2px solid #E74C3C; }
       .comparison .comparison-container .standard-company .total-container-2, .comparison .comparison-container .ezhs .total-container-2 {
@@ -1115,7 +1115,9 @@ textarea {
 
 @media (max-width: 420px) {
   .comparison-container .ezhs-container {
-    margin-bottom: -100px !important; } }
+    margin-bottom: -100px !important; }
+  .before-after-1 {
+    margin-bottom: -30px !important; } }
 
 @media (max-width: 360px) {
   .comparison-container .standard-company-container,
@@ -1786,3 +1788,7 @@ textarea {
 @media (max-width: 980px) {
   .testimony-header p {
     margin: 40px 20px !important; } }
+
+@media (max-width: 500px) {
+  .testimony-header p {
+    font-size: 18pt; } }
