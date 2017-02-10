@@ -596,6 +596,8 @@ textarea {
       display: flex;
       -ms-flex-item-align: end;
           align-self: flex-end;
+      -ms-flex-direction: column;
+          flex-direction: column;
       -ms-flex-pack: center;
           justify-content: center;
       height: auto;
@@ -604,7 +606,7 @@ textarea {
       margin-top: 30px; }
       .jumbotron .jumbotron-text .headline h1 {
         margin: 0;
-        padding: 8px 4px;
+        padding: 0px 4px;
         font-family: "Raleway", sans-serif;
         text-align: center;
         font-size: 32pt;
