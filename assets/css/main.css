@@ -874,6 +874,15 @@ textarea {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center; }
+  .about h2.section-header-title {
+    margin: 40px 0;
+    color: white;
+    font-size: 1.3em;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 1px; }
   .about p {
     max-width: 900px;
     margin: 40px 0;
