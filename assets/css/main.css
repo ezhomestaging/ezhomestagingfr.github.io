@@ -796,7 +796,7 @@ textarea {
             justify-content: center;
         -ms-flex-align: center;
             align-items: center; }
-        .panels .panel-container .panel-1 .title-1 p, .panels .panel-container .panel-1 .title-2 p, .panels .panel-container .panel-1 .title-3 p, .panels .panel-container .panel-2 .title-1 p, .panels .panel-container .panel-2 .title-2 p, .panels .panel-container .panel-2 .title-3 p, .panels .panel-container .panel-3 .title-1 p, .panels .panel-container .panel-3 .title-2 p, .panels .panel-container .panel-3 .title-3 p {
+        .panels .panel-container .panel-1 .title-1 p, .panels .panel-container .panel-1 .title-1 h2, .panels .panel-container .panel-1 .title-2 p, .panels .panel-container .panel-1 .title-2 h2, .panels .panel-container .panel-1 .title-3 p, .panels .panel-container .panel-1 .title-3 h2, .panels .panel-container .panel-2 .title-1 p, .panels .panel-container .panel-2 .title-1 h2, .panels .panel-container .panel-2 .title-2 p, .panels .panel-container .panel-2 .title-2 h2, .panels .panel-container .panel-2 .title-3 p, .panels .panel-container .panel-2 .title-3 h2, .panels .panel-container .panel-3 .title-1 p, .panels .panel-container .panel-3 .title-1 h2, .panels .panel-container .panel-3 .title-2 p, .panels .panel-container .panel-3 .title-2 h2, .panels .panel-container .panel-3 .title-3 p, .panels .panel-container .panel-3 .title-3 h2 {
           color: white;
           font-family: "Raleway", sans-serif;
           letter-spacing: 1px;
@@ -845,7 +845,7 @@ textarea {
       display: flex;
       height: 30px;
       width: 100%; }
-      .panels .panel-container .panel-1 .title-1 p, .panels .panel-container .panel-1 .title-2 p, .panels .panel-container .panel-1 .title-3 p, .panels .panel-container .panel-2 .title-1 p, .panels .panel-container .panel-2 .title-2 p, .panels .panel-container .panel-2 .title-3 p, .panels .panel-container .panel-3 .title-1 p, .panels .panel-container .panel-3 .title-2 p, .panels .panel-container .panel-3 .title-3 p {
+      .panels .panel-container .panel-1 .title-1 p, .panels .panel-container .panel-1 .title-1 h2, .panels .panel-container .panel-1 .title-2 p, .panels .panel-container .panel-1 .title-2 h2, .panels .panel-container .panel-1 .title-3 p, .panels .panel-container .panel-1 .title-3 h2, .panels .panel-container .panel-2 .title-1 p, .panels .panel-container .panel-2 .title-1 h2, .panels .panel-container .panel-2 .title-2 p, .panels .panel-container .panel-2 .title-2 h2, .panels .panel-container .panel-2 .title-3 p, .panels .panel-container .panel-2 .title-3 h2, .panels .panel-container .panel-3 .title-1 p, .panels .panel-container .panel-3 .title-1 h2, .panels .panel-container .panel-3 .title-2 p, .panels .panel-container .panel-3 .title-2 h2, .panels .panel-container .panel-3 .title-3 p, .panels .panel-container .panel-3 .title-3 h2 {
         letter-spacing: 1px;
         font-weight: 300;
         font-size: 14px; }
