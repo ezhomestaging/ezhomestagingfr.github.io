@@ -1416,6 +1416,7 @@ textarea {
   display: flex;
   font-family: "Raleway", sans-serif;
   font-size: 10pt;
+  font-weight: 400;
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
