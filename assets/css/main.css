@@ -672,7 +672,7 @@ textarea {
     height: 350px !important; }
     .jumbotron .jumbotron-text .headline {
       width: 400px !important; }
-      .jumbotron .jumbotron-text .headline p {
+      .jumbotron .jumbotron-text .headline h1 {
         font-size: 26pt !important; }
     .jumbotron .jumbotron-text .jumbo-desc {
       width: 360px !important; }
@@ -689,7 +689,7 @@ textarea {
     height: 300px !important; }
     .jumbotron .jumbotron-text .headline {
       width: 400px !important; }
-      .jumbotron .jumbotron-text .headline p {
+      .jumbotron .jumbotron-text .headline h1 {
         font-size: 26pt !important; }
     .jumbotron .jumbotron-text .jumbo-desc {
       width: 360px !important; }
@@ -704,7 +704,7 @@ textarea {
 @media (max-width: 420px) {
   .jumbotron .jumbotron-text .headline {
     width: 310px !important; }
-    .jumbotron .jumbotron-text .headline p {
+    .jumbotron .jumbotron-text .headline h1 {
       font-size: 20pt !important; }
   .jumbotron .jumbotron-text .jumbo-desc {
     width: 320px !important; }
@@ -721,7 +721,7 @@ textarea {
     height: 300px !important; }
     .jumbotron .jumbotron-text .headline {
       width: 290px !important; }
-      .jumbotron .jumbotron-text .headline p {
+      .jumbotron .jumbotron-text .headline h1 {
         font-size: 18pt !important; }
     .jumbotron .jumbotron-text .jumbo-desc {
       width: 300px !important; }
@@ -1134,8 +1134,6 @@ textarea {
     padding: 0px 10px !important; } }
 
 @media (max-width: 420px) {
-  .comparison-container .ezhs-container {
-    margin-bottom: -100px !important; }
   .before-after-1 {
     margin-bottom: -30px !important; } }
 
