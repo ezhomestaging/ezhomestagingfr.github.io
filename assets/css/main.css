@@ -1233,10 +1233,14 @@ textarea {
     .contact .contact-form .form-container {
       display: -ms-flexbox;
       display: flex; }
-      .contact .contact-form .form-container .name p,
+      .contact .contact-form .form-container .name p, .contact .contact-form .form-container .name h3,
       .contact .contact-form .form-container .email p,
+      .contact .contact-form .form-container .email h3,
       .contact .contact-form .form-container .phone p,
-      .contact .contact-form .form-container .message p {
+      .contact .contact-form .form-container .phone h3,
+      .contact .contact-form .form-container .message p,
+      .contact .contact-form .form-container .message h3 {
+        font-weight: 400;
         font-family: "Raleway", sans-serif;
         font-size: 14px;
         text-decoration: underline;
@@ -1295,7 +1299,8 @@ textarea {
       text-align: center;
       -ms-flex-pack: center;
           justify-content: center; }
-      .contact .contact-form .contact-phone p {
+      .contact .contact-form .contact-phone p, .contact .contact-form .contact-phone h2 {
+        font-weight: 500;
         font-family: "Raleway", sans-serif;
         font-size: 16pt; }
 
