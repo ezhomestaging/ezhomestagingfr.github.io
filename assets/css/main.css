@@ -1010,6 +1010,9 @@ textarea {
         font-size: 20px;
         text-align: center;
         border-bottom: 3px solid #6B4086; }
+        .comparison .comparison-container .standard-company .title h2, .comparison .comparison-container .ezhs .title h2 {
+          font-size: 20px;
+          margin: 0px; }
         .comparison .comparison-container .standard-company .title p, .comparison .comparison-container .ezhs .title p {
           margin: 0px; }
       .comparison .comparison-container .standard-company .total-container-1, .comparison .comparison-container .ezhs .total-container-1 {
