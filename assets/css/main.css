@@ -1173,7 +1173,7 @@ textarea {
     width: 650px;
     margin-bottom: 40px;
     text-align: center; }
-    .contact-cta .headline p {
+    .contact-cta .headline p, .contact-cta .headline h2 {
       padding-top: 30px;
       padding-left: 10px;
       padding-right: 10px;
