@@ -600,6 +600,8 @@ textarea {
     .jumbotron .jumbotron-text .headline {
       display: -ms-flexbox;
       display: flex;
+      -ms-flex-order: 0;
+          order: 0;
       -ms-flex-item-align: end;
           align-self: flex-end;
       -ms-flex-direction: column;
@@ -1661,8 +1663,19 @@ textarea {
       align-items: center;
   padding-top: 30px;
   height: auto; }
+  .gallery .home-title {
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 13pt;
+    font-weight: 500;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin-bottom: 30px; }
   .gallery .thumbnails {
-    display: inline-grid;
+    display: inline-table;
     text-align: center;
     -ms-flex-direction: row;
         flex-direction: row;
@@ -1696,8 +1709,8 @@ textarea {
 
 .testimony {
   margin-top: 25px;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
+  text-align: center;
   -ms-flex-direction: row;
       flex-direction: row;
   -ms-flex-item-align: center;
@@ -1708,8 +1721,7 @@ textarea {
       align-items: baseline;
   width: auto; }
   .testimony .witness {
-    display: inline-grid;
-    text-align: center;
+    display: inline-table;
     -ms-flex-direction: row;
         flex-direction: row;
     width: 300px;
@@ -1717,7 +1729,8 @@ textarea {
     padding-left: 35px;
     padding-right: 35px; }
     .testimony .witness .witness-picture {
-      display: inline-grid;
+      display: block;
+      margin: auto;
       -ms-flex-direction: column;
           flex-direction: column;
       height: 110px;
