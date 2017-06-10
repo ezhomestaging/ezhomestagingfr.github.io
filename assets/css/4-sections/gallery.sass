@@ -1,45 +1,71 @@
 .gallery
   display: flex
-  flex-direction: column
+  flex-direction: row
   align-self: center
   justify-content: center
-  align-items: center
+  align-items: baseline
   padding-top: 30px
   height: auto
-  .home-title
-    display: flex
-    font-family: $mainfont
-    font-size: 13pt
-    font-weight: 500
-    align-items: center
+  width: auto
+  .staging-column
+    display: inline-block
+    flex-direction: column
+    align-self: baseline
     justify-content: center
-    margin-bottom: 30px
-  .thumbnails
-    display: inline-table
-    text-align: center
-    flex-direction: row
+    align-items: baseline
+    padding-top: 30px
+    max-width: 600px
     height: auto
-    max-width: 800px
-    padding-left: 25px
-    .thumbnail
-      display: inline-grid
+    .home-title
+      display: flex
       flex-direction: row
-      margin-right: 25px
-      margin-bottom: 20px
-      border-radius: 4px
-      align-items: center
-      height: 140px
-      width: auto
-      background:
-        position: center
-        repeat: no-repeat
-        size: contain
+      font-family: $mainfont
+      font-size: 13pt
+      font-weight: 500
+      align-items: baseline
+      justify-content: center
+      margin-bottom: 30px
+    .thumbnails
+      display: flex
+      text-align: center
+      flex-direction: row
+      height: auto
+      padding-left: 25px
+      .staging-description
+        display: flex
+        text-align: left
+        flex-direction: column
+        p
+          font-family: $mainfont
+          font-size: 10pt
+          font-weight: 500
+      .thumbnail
+        display: inline-table
+        flex-direction: column
+        margin-right: 25px
+        margin-bottom: 20px
+        border-radius: 4px
+        align-items: center
+        height: 140px
+        width: auto
+        background:
+          position: center
+          repeat: no-repeat
+          size: contain
 
 @media (max-width: 980px)
   .gallery
     width: 100vw !important
-    .thumbnails
-      justify-content: center !important
-      .thumbnail
-        height: 100px
-        width: auto
+    flex-direction: column
+    .staging-column
+      display: flex
+      align-self: center
+      .home-title
+        padding-left: 25px
+        display: table-column
+        flex-direction: row
+        align-items: center
+      .thumbnails
+        justify-content: center !important
+        .thumbnail
+          width: auto

@@ -1653,6 +1653,102 @@ textarea {
 .gallery {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: baseline;
+      align-items: baseline;
+  padding-top: 30px;
+  height: auto;
+  width: auto; }
+  .gallery .staging-column {
+    display: inline-block;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: baseline;
+        align-items: baseline;
+    padding-top: 30px;
+    max-width: 600px;
+    height: auto; }
+    .gallery .staging-column .home-title {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      font-family: "Raleway", sans-serif;
+      font-size: 13pt;
+      font-weight: 500;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+      -ms-flex-pack: center;
+          justify-content: center;
+      margin-bottom: 30px; }
+    .gallery .staging-column .thumbnails {
+      display: -ms-flexbox;
+      display: flex;
+      text-align: center;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      height: auto;
+      padding-left: 25px; }
+      .gallery .staging-column .thumbnails .staging-description {
+        display: -ms-flexbox;
+        display: flex;
+        text-align: left;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+        .gallery .staging-column .thumbnails .staging-description p {
+          font-family: "Raleway", sans-serif;
+          font-size: 10pt;
+          font-weight: 500; }
+      .gallery .staging-column .thumbnails .thumbnail {
+        display: inline-table;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        margin-right: 25px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        -ms-flex-align: center;
+            align-items: center;
+        height: 140px;
+        width: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+
+@media (max-width: 980px) {
+  .gallery {
+    width: 100vw !important;
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    .gallery .staging-column {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-item-align: center;
+          align-self: center; }
+      .gallery .staging-column .home-title {
+        padding-left: 25px;
+        display: table-column;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-align: center;
+            align-items: center; }
+      .gallery .staging-column .thumbnails {
+        -ms-flex-pack: center !important;
+            justify-content: center !important; }
+        .gallery .staging-column .thumbnails .thumbnail {
+          width: auto; } }
+
+.gallery-staging {
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-item-align: center;
@@ -1663,7 +1759,7 @@ textarea {
       align-items: center;
   padding-top: 30px;
   height: auto; }
-  .gallery .home-title {
+  .gallery-staging .home-title {
     display: -ms-flexbox;
     display: flex;
     font-family: "Raleway", sans-serif;
@@ -1674,7 +1770,7 @@ textarea {
     -ms-flex-pack: center;
         justify-content: center;
     margin-bottom: 30px; }
-  .gallery .thumbnails {
+  .gallery-staging .thumbnails {
     display: inline-table;
     text-align: center;
     -ms-flex-direction: row;
@@ -1682,7 +1778,7 @@ textarea {
     height: auto;
     max-width: 800px;
     padding-left: 25px; }
-    .gallery .thumbnails .thumbnail {
+    .gallery-staging .thumbnails .thumbnail {
       display: inline-grid;
       -ms-flex-direction: row;
           flex-direction: row;
@@ -1698,12 +1794,12 @@ textarea {
       background-size: contain; }
 
 @media (max-width: 980px) {
-  .gallery {
+  .gallery-staging {
     width: 100vw !important; }
-    .gallery .thumbnails {
+    .gallery-staging .thumbnails {
       -ms-flex-pack: center !important;
           justify-content: center !important; }
-      .gallery .thumbnails .thumbnail {
+      .gallery-staging .thumbnails .thumbnail {
         height: 100px;
         width: auto; } }
 
