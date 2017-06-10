@@ -1805,14 +1805,15 @@ textarea {
 
 .testimony {
   margin-top: 25px;
-  display: inline-block;
+  display: -ms-flexbox;
+  display: flex;
   text-align: center;
   -ms-flex-direction: row;
       flex-direction: row;
-  -ms-flex-item-align: center;
-      align-self: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-align: baseline;
       align-items: baseline;
   width: auto; }
